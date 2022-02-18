@@ -3,16 +3,22 @@
 Scripts to perform Posterior Predictive Simulation of MultiSpecies Coalescent parameters
 Designed to run in a Linux environment, but modifications of the shell script `postPredSimBPP_K.sh` will allow to perform the analysis in Windows
 
+## This repository contains
+
+ - an R and shell scripts to generate simulated datasets and controlfiles to analyze in BPP
+ - a Python script to estimate of posterior predictive p-values and effect sizes for each parameter
+
+
 ## Steps to perform the analysis
 
 1. Clone or download the repo (unzip if downloaded)
-2. In the directory where the files were downloaded create a folder `A00_output` and place in it the `mcmc.txt` output from an A00 analysis carried out in BPP
+2. In the directory where the files were downloaded place the `mcmc.txt` output from an A00 analysis performed in BPP
 3. Run the R script from terminal
 ```sh
-Rscript postPredSimBPP_K.R
+Rscript postPredSimMSC.R
 ```
-4. Analyze each simulated dataset in BPP ()
+4. Analyze each simulated dataset in BPP (analysis A00: estimation of MSC parameters)
 ```sh
 bpp --cfile controlfile.txt
 ```
-5. 
+5. Run the commands in the script `PPDTestStatisticsMSC.py` to generate posterior predictive p-values and posterior predictive effect sizes for each parameter in the species tree
