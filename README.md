@@ -11,6 +11,7 @@ Designed to run in a Linux environment, but modifications of the shell script `p
 ## Notes
 
 The scripts are based on this species tree
+
 ![treeNodeNames](https://user-images.githubusercontent.com/39627346/154763344-9b18394e-7c52-4952-a0ba-a575a1397762.svg)
 
 ## Steps to perform the analysis
