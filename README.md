@@ -26,4 +26,4 @@ Rscript postPredSimMSC.R
 ```sh
 bpp --cfile controlfile.txt
 ```
-5. Run the commands in the script `PPDTestStatisticsMSC.py` to generate posterior predictive p-values and posterior predictive effect sizes for each parameter in the species tree
+5. Run the commands in the script `PPDTestStatisticsMSC.py` to generate posterior predictive p-values and posterior predictive effect sizes for each parameter in the species tree (filename `out_analysis.txt`)
