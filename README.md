@@ -5,9 +5,9 @@ Designed to run in a Linux environment, but modifications of the shell script `p
 
 ## This repository contains
 
- - an R and shell scripts to generate simulated datasets and controlfiles to analyze in BPP
- - a Python script to estimate of posterior predictive p-values and effect sizes for each parameter
- - an `mcmc.txt` file for test purposes
+ - R and shell scripts to generate simulated datasets and controlfiles to analyze in BPP
+ - Python script to estimate of posterior predictive p-values and effect sizes for each parameter
+ - `mcmc.txt` file for test purposes
 
 ## Notes
 
