@@ -1,6 +1,6 @@
 # `postPredSimMSC`
 
-Scripts to perform Posterior Predictive Simulation of MultiSpecies Coalescent parameters
+Scripts to perform Posterior Predictive Simulation of population parameters (MultiSpecies Coalescent model)
 Designed to run in a Linux environment, but modifications of the shell script `postPredSimBPP_K.sh` will allow to perform the analysis in Windows
 
 ## This repository contains
